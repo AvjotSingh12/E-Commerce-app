@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:memoneet_e_commerce_app_assignment/Pages/authPage.dart';
 import 'package:memoneet_e_commerce_app_assignment/Pages/cartPage.dart';
 import 'package:memoneet_e_commerce_app_assignment/Pages/homePage.dart';
 import 'package:memoneet_e_commerce_app_assignment/Pages/orderSummeryPage.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
     routes: {
-  '/': (context) => const HomeScreen(),
+  '/': (context) => const AuthScreen(),
   '/cart': (context) => const CartScreen(),
   '/summary': (context) => const OrderSummaryScreen(),
   '/payment': (context) => const PaymentScreen(),

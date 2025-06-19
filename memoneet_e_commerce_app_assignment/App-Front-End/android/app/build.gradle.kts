@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.memoneet_e_commerce_app_assignment"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    //ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
