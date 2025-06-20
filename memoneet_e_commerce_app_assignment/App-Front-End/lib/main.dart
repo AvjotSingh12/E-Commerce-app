@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
     routes: {
-  '/': (context) => const AuthScreen(),
+  '/': (context) => const HomeScreen(),
   '/cart': (context) => const CartScreen(),
   '/summary': (context) => const OrderSummaryScreen(),
   '/payment': (context) => const PaymentScreen(),
